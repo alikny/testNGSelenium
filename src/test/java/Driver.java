@@ -7,6 +7,7 @@ public class Driver {
     public static WebDriver get(){
         WebDriverManager.firefoxdriver().setup();
         WebDriver driver = new FirefoxDriver();
+        System.out.println("yeni line");
         return driver;
     }
 }
